@@ -1,6 +1,6 @@
 # npmtest-node-mongoose-fixtures
 
-#### test coverage for  [node-mongoose-fixtures (v0.2.4)](https://github.com/kennethklee/node-mongoose-fixtures)  [![npm package](https://img.shields.io/npm/v/npmtest-node-mongoose-fixtures.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-node-mongoose-fixtures) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-node-mongoose-fixtures.svg)](https://travis-ci.org/npmtest/node-npmtest-node-mongoose-fixtures)
+#### basic test coverage for  [node-mongoose-fixtures (v0.2.4)](https://github.com/kennethklee/node-mongoose-fixtures)  [![npm package](https://img.shields.io/npm/v/npmtest-node-mongoose-fixtures.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-node-mongoose-fixtures) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-node-mongoose-fixtures.svg)](https://travis-ci.org/npmtest/node-npmtest-node-mongoose-fixtures)
 
 #### Easy way to create mongoose fixtures.
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-node-mongoose-fixtures/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-node-mongoose-fixtures/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-node-mongoose-fixtures/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-node-mongoose-fixtures/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-node-mongoose-fixtures/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-node-mongoose-fixtures/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-node-mongoose-fixtures/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-node-mongoose-fixtures/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-node-mongoose-fixtures/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-node-mongoose-fixtures/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-node-mongoose-fixtures/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-node-mongoose-fixtures/build/coverage.html/index.html)
 
@@ -84,7 +84,8 @@
         "pretest": "jshint *.js lib",
         "test": "mocha -R spec"
     },
-    "version": "0.2.4"
+    "version": "0.2.4",
+    "bin": {}
 }
 ```
 
